@@ -1,0 +1,247 @@
+{
+    "person": {
+        "name": "Olly",
+        "nhsNumber": "426 555 6789"
+    },
+    "appointments": {
+        "1": {
+            "when": {
+                "arriveBefore": 20,
+                "dateTime": "2022-05-24T11:40:00+01:00",
+                "duration": "30"
+            },
+            "what": {
+                "simpleName": "Echocardiogram",
+                "moreInfoURL": "https:\/\/www.nhs.uk\/conditions\/echocardiogram\/"
+            },
+            "who": {
+                "role": "sonographer",
+                "orgName": "Barts Health NHS Trust"
+            },
+            "where": {
+                "venueName": "St Bartholomew's Hospital",
+                "department": "Clinic 5",
+                "address": [
+                    "2nd Floor",
+                    "King George V Wing",
+                    "St Bartholomew's Hospital"
+                ],
+                "postcode": "EC1A 7BE"
+            },
+            "meta": {
+                "type": "outpatientAppointment",
+                "hospitalNumber": 6789123,
+                "dateIssued": "2022-02-23T00:00:00+00:00",
+                "dateUpdated": "2022-02-23T00:00:00+00:00",
+                "orgType": "acute",
+                "orgId": "BARTS",
+                "clinicId": "US Cardiac Echo Complex Congenital"
+            },
+            "referredBy": "your doctor",
+            "amend": {
+                "telephone": "02037658154"
+            },
+            "transport": {
+                "telephone": "03300416767",
+                "bookBefore": "48"
+            },
+            "notices": {
+                "warnings": [
+                    "dna"
+                ],
+                "during": [
+                    "Please note that personal property remais your responsibility at all times. You may be asked to remove jewellery or other valuabeles during your examination. Please keep them with you at all times and make sure that you have them when you leave the examination rooom.",
+                    "You are welcome to bring a friend or relative with you.  Pleae note that if you are bringing young children you must bring another adult to look after them while you are having your examinsation.",
+                    "As part of a shared service agreement with other NHS organisations in the area, your radiology images and records may be shared with relevant organisation as part of determining and providing your care.  If you have any concerns about this, please ask for more information from a member of staff."
+                ]
+            }
+        },
+        "2": {
+            "when": {
+                "dateTime": "2022-06-14T14:30:00+01:00"
+            },
+            "what": {
+                "simpleName": "Cardiology"
+            },
+            "who": {
+                "personName": "Dr Richard Schilling",
+                "orTeam": true,
+                "orgName": "Barts Health NHS Trust"
+            },
+            "where": {
+                "venueName": "St Bartholomew's Hospital",
+                "department": "Clinic 5",
+                "address": [
+                    "2nd Floor",
+                    "King George V Wing",
+                    "St Bartholomew's Hospital"
+                ],
+                "postcode": "EC1A 7BE"
+            },
+            "meta": {
+                "type": "outpatientAppointment",
+                "hospitalNumber": 6789123,
+                "dateIssued": "2022-04-08T00:00:00+01:00",
+                "dateUpdated": "2022-05-09T00:00:00+01:00",
+                "orgType": "acute",
+                "orgId": "BARTS",
+                "clinicId": "GUCH and Non-Invasive Clinic"
+            },
+            "amend": {
+                "telephone": [
+                    "02034655855",
+                    "02037658154"
+                ]
+            },
+            "transport": {
+                "telephone": "03300416767",
+                "bookBefore": "48"
+            },
+            "notices": {
+                "warnings": [
+                    "late",
+                    "dna"
+                ],
+                "before": [
+                    "medicines",
+                    "letter"
+                ],
+                "during": [
+                    "details"
+                ]
+            }
+        },
+        "3": {
+            "when": {
+                "dateTime": "2022-07-08T10:15:00+01:00"
+            },
+            "what": {
+                "simpleName": "Pacing clinic",
+                "about": "Our team will ensure your pacemaker, defibrilator or loop recorder is working well for you and your condition."
+            },
+            "who": {
+                "role": "cardiac physiologist",
+                "orgName": "Barts Health NHS Trust"
+            },
+            "where": {
+                "venueName": "St Bartholomew's Hospital",
+                "department": "Clinic 5",
+                "address": [
+                    "2nd Floor",
+                    "King George V Wing",
+                    "St Bartholomew's Hospital"
+                ],
+                "postcode": "EC1A 7BE"
+            },
+            "meta": {
+                "type": "outpatientAppointment",
+                "hospitalNumber": 6789123,
+                "dateIssued": "2022-03-25T00:00:00+00:00",
+                "dateUpdated": "2022-04-19T00:00:00+01:00",
+                "orgType": "acute",
+                "orgId": "BARTS",
+                "clinicId": "Device Clinic"
+            },
+            "referredBy": null,
+            "amend": {
+                "telephone": [
+                    "02034655855",
+                    "02037658154"
+                ]
+            },
+            "transport": {
+                "telephone": "03300416767",
+                "bookBefore": "48"
+            },
+            "notices": {
+                "warnings": [
+                    "late"
+                ],
+                "before": [
+                    "medicines"
+                ]
+            }
+        },
+        "4": {
+            "when": {
+                "dateTime": "2022-06-07T09:40:00+01:00"
+            },
+            "what": {
+                "simpleName": "GP Appointment",
+                "about": "This is for a medicines review."
+            },
+            "who": {
+                "personName": "Dr Ali Muhammad",
+                "role": "GP",
+                "orgName": "Albert Road Medical Practice"
+            },
+            "where": {
+                "venueName": "Albert Road Medical Practice",
+                "address": [
+                    "72 Albert Road",
+                    "Rugby",
+                    "Warwickshire"
+                ],
+                "postcode": "CV21 2DT"
+            },
+            "meta": {
+                "type": "appointment",
+                "dateIssued": "2022-05-20T00:00:00+01:00",
+                "dateUpdated": "2022-05-20T00:00:00+01:00",
+                "orgType": "primary"
+            },
+            "amend": {
+                "telephone": "01788456789"
+            }
+        },
+        "5": {
+            "when": {
+                "dateTime": "2022-06-21T00:00:00+01:00"
+            },
+            "what": {
+                "simpleName": "Prescription ready",
+                "about": "Bisprolol 7.5mg x 60 will be available for collection"
+            },
+            "who": {
+                "orgName": "Boots Pharmacy"
+            },
+            "where": {
+                "venueName": "Boots Pharmacy",
+                "address": [
+                    "Rugby Central",
+                    "High Street",
+                    "Rugby",
+                    "Warwickshire"
+                ],
+                "postcode": "CV21 2WE"
+            },
+            "meta": {
+                "type": "reminder",
+                "hospitalNumber": null,
+                "dateIssued": "2021-10-15T00:00:00+01:00",
+                "dateUpdated": "2022-02-03T00:00:00+00:00",
+                "orgType": "pharmacy"
+            }
+        },
+        "6": {
+            "when": {
+                "dateTime": "2022-10-01T00:00:00+01:00",
+                "notDateSpecific": true
+            },
+            "what": {
+                "simpleName": "Get your flu jab",
+                "about": "As you are at higher risk of being affected by flu, the Chief Medical Officer recommends you get a flu jab.",
+                "moreInfoURL": "https:\/\/www.nhs.uk\/conditions\/vaccinations\/flu-influenza-vaccine\/"
+            },
+            "who": {
+                "orgName": "NHS England"
+            },
+            "meta": {
+                "type": "advice",
+                "dateIssued": "2022-01-01",
+                "dateUpdated": "2022-01-01",
+                "orgType": "national"
+            }
+        }
+    }
+}

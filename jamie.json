@@ -1,0 +1,53 @@
+{
+    "person": {
+        "name": "Jamie",
+        "nhsNumber": "576 123 9753"
+    },
+    "appointments": {
+        "1": {
+            "when": {
+                "arriveBefore": 15,
+                "dateTime": "2022-06-27T12:05:00+01:00"
+            },
+            "what": {
+                "simpleName": "Opthamology"
+            },
+            "who": {
+                "role": "opthamologist",
+                "orgName": "Coventry and Warwickshire University Hospitals Trust"
+            },
+            "where": {
+                "venueName": "Coventry University Hospital",
+                "department": "Room 57",
+                "address": [
+                    "Clifford Bridge Rd",
+                    "Coventry"
+                ],
+                "postcode": "CV2 2DX"
+            },
+            "meta": {
+                "type": "outpatientAppointment",
+                "hospitalNumber": 234242,
+                "dateIssued": "2022-04-21T00:00:00+01:00",
+                "dateUpdated": "2022-04-21T00:00:00+01:00",
+                "orgType": "acute",
+                "orgId": "COV",
+                "clinicId": "Paedatric opthamologist"
+            },
+            "amend": {
+                "telephone": "024 7696 4000"
+            },
+            "transport": {
+                "telephone": "024 7696 4000",
+                "bookBefore": "72"
+            },
+            "notices": {
+                "warnings": [
+                    "dna"
+                ],
+                "before": null,
+                "after": null
+            }
+        }
+    }
+}
